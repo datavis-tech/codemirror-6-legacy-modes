@@ -4,7 +4,7 @@
 
 import { CodeMirror } from './shim';
 
-export default function(config, parserConfig) {
+export const css = function(config, parserConfig) {
   var inline = parserConfig.inline
   if (!parserConfig.propertyKeywords) parserConfig = CodeMirror.resolveMode("text/css");
 

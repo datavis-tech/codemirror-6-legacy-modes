@@ -49,7 +49,7 @@ var xmlConfig = {
   caseFold: false
 }
 
-export default function(editorConf, config_) {
+export const xml = function(editorConf, config_) {
   var indentUnit = editorConf.indentUnit
   var config = {}
   var defaults = config_.htmlMode ? htmlConfig : xmlConfig

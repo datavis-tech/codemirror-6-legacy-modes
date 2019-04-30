@@ -1,0 +1,22 @@
+{
+  "name": "@datavis-tech/codemirror-6-legacy-modes",
+  "version": "1.0.0",
+  "description": "A collection of CodeMirror v6-compatible language modes ported form v5.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datavis-tech/codemirror-6-legacy-modes.git"
+  },
+  "keywords": [
+    "CodeMirror"
+  ],
+  "author": "Curran Kelleher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datavis-tech/codemirror-6-legacy-modes/issues"
+  },
+  "homepage": "https://github.com/datavis-tech/codemirror-6-legacy-modes#readme"
+}
